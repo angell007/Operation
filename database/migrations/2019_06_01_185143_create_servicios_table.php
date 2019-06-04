@@ -17,7 +17,7 @@ class CreateServiciosTable extends Migration
             $table->unsignedInteger('razon_id')->nullable();
             $table->unsignedInteger('tipo_id');
             $table->unsignedInteger('modo_servicio_id');
-            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('user_id')->default(null);
             $table->unsignedInteger('cliente_id');
             $table->date('fecha_inicio');
             $table->date('fecha_reparado')->nullable();

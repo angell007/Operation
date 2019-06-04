@@ -67,7 +67,7 @@ class ServicioController extends Controller
                         return 'alert-back font-weight-bold';
                         break;
                     case 4:
-                        return 'bg-danger text-dark font-weight-bold';
+                        return 'bg-danger text-white font-weight-bold';
                         break;
                     case 5:
                         return 'alert-danger text-danger font-weight-bold';
@@ -79,7 +79,7 @@ class ServicioController extends Controller
                         return 'bg-warning font-weight-bold';
                         break;
                     case 8:
-                        return 'alert-cambio text-dark font-weight-bold';
+                        return 'alert-cambio text-white font-weight-bold';
                         break;
                     case 9:
                         return 'bg-info font-weight-bold';
@@ -88,7 +88,7 @@ class ServicioController extends Controller
                         return 'alert-ausente font-weight-bold';
                         break;
                     case 11:
-                        return 'bg-success text-dark font-weight-bold';
+                        return 'bg-success text-white font-weight-bold';
                         break;
                     case 12:
                         return 'alert-danger text-danger font-weight-bold';

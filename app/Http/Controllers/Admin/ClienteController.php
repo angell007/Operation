@@ -146,8 +146,15 @@ class ClienteController extends Controller
     {
         $datatables = datatables(Servicio::with('cliente','razon','user','lastestnota','tipo', 'modoservicio')->where('cliente_id', $id)->get())
             ->editColumn('actions', function ($servicio) {
-                return view('admin.clientes.datatables.actions', compact('servicio'));
+                return view('admin.clientes.datatables.actionss', compact('servicio'));
             })
+            // ->editColumn('user.name', function ($servicio) {
+            //     if(!isset($servicio->user)
+            //     {
+
+            //         return 'sin Tecnico';
+            //     }
+            // })
             ->setRowClass(function ($servicio) {
                 switch ($servicio->razon->id) {
                     case 1:

@@ -284,7 +284,7 @@
                 <option value="{{ $servicio->user->identificacion }}">{{ $servicio->user->fullname }}
                 </option>
                 @foreach ($usuarios as $item)
-                <option value="{{ $item->identificacion }}"> {{ $item->fullname }}</option>
+                <option value="{{ $item->identificacion }}"> {{ $item->fullname }} cc: {{ $item->identificacion }}</option>
                 @endforeach
             </select>
         </div>
