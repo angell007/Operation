@@ -1,0 +1,123 @@
+/* use google font */
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.alert-solicitado{
+    background-color: #fff;
+    color: red;
+}
+
+.alert-solicitado:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+
+.alert-ausente{
+    background-color: rgb(180, 126, 25);
+    color: #000;
+}
+
+.alert-ausente:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+
+
+.alert-repuestos{
+    background-color: rgb(140, 0, 255);
+    color: #000;
+}
+
+.alert-repuestos:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+
+.alert-back{
+    background-color: rgb(0, 255, 170);
+    color: rgb(0, 0, 0);
+}
+
+.alert-back:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+  .alert-cambio{
+    background-color: rgb(76, 0, 255);
+    color: rgb(0, 0, 0);
+}
+
+.alert-cambio:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+.guest
+{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://scontent-bog1-1.xx.fbcdn.net/v/t1.0-9/61627199_655994464806022_8328276740421976064_n.jpg?_nc_cat=101&_nc_ht=scontent-bog1-1.xx&oh=bbfcb2f6f7514986d5920670c58c2abc&oe=5D92F626");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.remember{
+    color: rgb(255, 255, 255)
+}
+
+
+/* round buttons */
+.btn-round.btn-sm {
+    border-radius: 1rem;
+    padding: .25rem .75rem;
+}
+.btn-round {
+    border-radius: 1.25rem;
+    padding: .375rem 1rem;
+}
+.btn-round.btn-lg {
+    border-radius: 1.5rem;
+    padding: .5rem 1.25rem;
+}
+
+/* icon buttons */
+.btn-icon.btn-sm {
+    padding: .25rem .35rem;
+}
+.btn-icon {
+    padding: .375rem .5rem;
+}
+.btn-icon.btn-lg {
+    padding: .5rem .65rem;
+}
+
+/* ajax alerts */
+.alert-flash {
+    position: fixed;
+    top: 1rem;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* datatables style tweaks */
+.dataTables_wrapper table {
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    width: calc(100% + 2.5rem);
+}
+.dataTables_wrapper th, .dataTables_wrapper td {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    vertical-align: middle;
+}
+.dataTables_wrapper tbody tr:hover {
+    background-color: #E9ECEF;
+}
